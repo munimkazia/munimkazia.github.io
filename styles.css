@@ -103,3 +103,12 @@ li {
 	float:left;
 	margin:0em 2em 0em 2em;
 }
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* This is key! It crops the photo for you */
+  border-radius: 20px; /* Soft squares look more modern than perfect circles right now */
+  filter: grayscale(20%) contrast(1.1); /* Adds a "moody" professional edit */
+  border: 1px solid #ddd;
+  box-shadow: 10px 10px 0px #f0f0f0; /* A "offset" shadow looks very tech-chic */
+}
