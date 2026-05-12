@@ -51,12 +51,20 @@ table {
 	
 }
 body {
-	font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-
-
+  background-color: #ffffff;
+  /* This creates a subtle 20px grid */
+  background-image: 
+    linear-gradient(#f0f0f0 1px, transparent 1px),
+    linear-gradient(90deg, #f0f0f0 1px, transparent 1px);
+  background-size: 20px 20px;
+  
+  /* Modern typography focus */
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 h1 {
  font-family: "Host Grotesk", sans-serif;
